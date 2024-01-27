@@ -1,0 +1,8 @@
+initconf            sudo configure.sh
+software_scripts    sudo addsoftware-client.sh
+AD_Configuration    join-domain.sh
+AD_Configuration    join-domain2.sh
+network_checks      install_set_dns.sh
+standard_scripts    N/A
+user_scripts
+settings

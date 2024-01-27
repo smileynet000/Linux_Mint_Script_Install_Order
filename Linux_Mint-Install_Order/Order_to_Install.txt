@@ -1,0 +1,9 @@
+initconf
+settings_dir
+settings_dir-smileynet
+AD_Configuration
+software_scripts
+network_checks
+standard_scripts
+user_scripts
+settings
