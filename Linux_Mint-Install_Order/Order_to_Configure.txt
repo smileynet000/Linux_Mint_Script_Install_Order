@@ -1,6 +1,7 @@
 initconf            sudo configure.sh
 initconf            sudo fix-resolv_conf3.sh
 software_scripts    sudo addsoftware-client-21-3.sh || sudo addsoftware-client-21-3-tablet.sh
+software_scripts    sudo docker_init-client.sh
 AD_Configuration    sudo join-domain.sh
 AD_Configuration    sudo join-domain2.sh || sudo join-domain2-tablet.sh
 network_checks      install_set_dns.sh
